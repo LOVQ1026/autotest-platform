@@ -7,7 +7,7 @@ class LoginPage:
         self.page = page
 
     def open(self):
-        self.page.goto(self.URL)
+        self.page.goto(self.URL, wait_until="domcontentloaded", timeout=60000)
         return self
 
     def login(self, username: str, password: str):
