@@ -26,7 +26,7 @@ autotest-platform/
 
 ```bash
 # 1. 克隆
-git clone https://github.com/你的用户名/autotest-platform.git
+git clone https://github.com/LOVQ1026/autotest-platform.git
 cd autotest-platform
 
 # 2. 安装依赖
